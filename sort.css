@@ -1,0 +1,25 @@
+body{
+    margin:0px;
+    border:0px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    height:auto;
+    width:auto;
+    background-color:#292929;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    border-radius: 1em;
+}
+
+.card{
+    margin:2em;
+    height:40vh;
+    width:13em;
+    background-color:#d7d7d7;
+    border-radius: 0.5em;
+}
