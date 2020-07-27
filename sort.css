@@ -27,8 +27,15 @@ img{
     border-radius: 0.5em;
 }
 
+.prompt{
+    margin:1em auto;
+    text-align: center;
+    width:100%;
+}
 .card:hover{
     cursor:grab;
+    transform:translate(-2%,-2%);
+    box-shadow: 2px 2px 5px black;
 }
 
 .card:active{
